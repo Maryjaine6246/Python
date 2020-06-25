@@ -1,7 +1,15 @@
-monday_temps = [9.1, 8.8, 7.5]
-student_grades = {"Mary": 9.1, "John": 8.8, "Fred":7.5}
+#Variables Practice
+import datetime
+mynow = datetime.datetime.now()
+print(mynow)
 
-mytotal = sum(student_grades.values())
-length = len(student_grades)
-mean = mytotal / length 
-print(mean)
+mynumber = 10
+mytext = "Hello"
+
+print(mynumber, mytext)
+
+#Lists Practice
+
+student_grades = [9.1, 8.8, 7.5]
+
+
